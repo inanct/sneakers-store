@@ -1,0 +1,74 @@
+
+.header{
+    padding: 15px;
+    box-shadow: 0px 5px 5px -5px rgb(0 22 84 / 10%);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+
+}
+
+.nav{
+    display: flex;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+ul li {
+    list-style-type: none;
+    margin-right: 1rem;
+}
+a:hover{
+  color: rgb(90, 85, 85);
+}
+.toggle{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .menu{
+        display: none;
+        position: relative;
+    }
+    .toggle{
+        display: block;    
+       
+        
+    }
+    button{
+        border: 1px solid white;
+        
+    }
+    .toggle .burger{
+        background-color: white;
+        font-size: 1.8rem;
+        
+        
+    }
+    .small{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(31, 30, 30);
+        text-align: center;
+    }
+    .small a{
+        color: white;
+        
+    }
+    .small a:hover {
+        color: gray;
+    }
+
+  
+    
+}

@@ -1,0 +1,63 @@
+.home{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.image{
+    width: 200px;
+    height: 100px;
+    
+}
+.home{
+    padding:0 100px;
+}
+
+.popular{
+    margin-bottom: 80px;
+}
+
+
+.card {
+    
+    
+    margin: 10px;
+    overflow: hidden;
+    
+    display: flex;
+   padding: 2rem;
+    /* Kartlar arasında boşluk bırakmak için */
+    
+    
+    /* Kartın içeriği ve kenarlıkları dahil edilmesi için */
+}
+.add-to-cart {
+    margin-top: 10px;
+}
+
+.cart-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cart-button:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width: 767px) {
+    .card {
+        flex: 0 0 calc(50% - 20px);
+        /* 2 sütunlu düzen için */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 0 0 calc(100% - 20px);
+        /* Tek sütunlu düzen için */
+    }
+}
