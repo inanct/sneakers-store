@@ -1,5 +1,27 @@
 .cart{
-    margin-bottom: 32rem;
+    margin-bottom: 200px;
     padding: 0 50px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.aq{
+ 
+    display: flex;
+        flex-direction: column;
+        
+        
+        
+}
+.card-add{
+    margin: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+       border: solid 1px white;
+       border-radius: 8px;
 }
