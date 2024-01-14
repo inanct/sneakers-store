@@ -21,7 +21,7 @@ const Header = () => {
                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link>Category</Link>
+                    <Link to="/category">Category</Link>
                 </li>
                  
                  <li>
@@ -34,7 +34,7 @@ const Header = () => {
                     <Link>About Us</Link>
                 </li>
                  <Link to="/cart">
-                  <i ><MdShoppingCart />{cart.length}</i>
+                 <i data-count={cart.length}><MdShoppingCart /></i>
                 </Link>
              </ul>
              <div className="toggle">

@@ -6,6 +6,7 @@
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+    
    
 
 }
@@ -29,11 +30,22 @@ a:hover{
 .toggle{
     display: none;
 }
+i{
+    font-size: 1.8rem;
+}
+i[data-count]:after {
+    content: attr(data-count);
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    /* Kırmızı renk */
+}
 @media screen and (max-width: 768px) {
     .menu{
         display: none;
         position: relative;
     }
+  
     .toggle{
         display: block;    
        
