@@ -5,6 +5,7 @@ import HomePage from './components/pages/home-page'
 import { DataProvider } from './DataContext'
 import Cart from './components/pages/cart'
 import Category from './components/pages/category'
+import Brands from './components/pages/brands'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Route index element={<HomePage/>}/>  
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/category' element={<Category/>}/>
+      <Route path='/brands' element={<Brands/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

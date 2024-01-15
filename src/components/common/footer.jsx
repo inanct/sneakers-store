@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='footer-logo'>
                 <h1>Sneakers</h1>
             </div>
-            <div className='brands'>
+            <div className='brands-footer'>
                 <i><SiNike /></i>
                 <i><SiAdidas /></i>
                 <i><SiPuma /></i>

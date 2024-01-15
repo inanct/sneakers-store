@@ -49,6 +49,7 @@ const Category = () => {
   };
   return (
     <div className="category container-fluid">
+        
         <div className="sneakers">
             <h2>Sneakers</h2>
             <Slider {...settings}>
@@ -88,7 +89,7 @@ const Category = () => {
         </div>
 
         <div className="sandals">
-            <h2>Sandals</h2>
+            <h2>Flats</h2>
             <Slider {...settings}>
 {data.filter(item => item.category === 'flats').map((item)=>(
     <div className="card" key={item.id}>

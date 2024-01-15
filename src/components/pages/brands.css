@@ -1,0 +1,9 @@
+
+.brands{
+    
+    margin-top: 80px;
+}
+.nike, .adidas, .puma{
+    padding: 0 80px;
+    margin-top: 80px;
+}
