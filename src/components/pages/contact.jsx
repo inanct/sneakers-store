@@ -8,6 +8,7 @@ import {  SiInstagram, SiFacebook, SiTwitter } from "react-icons/si";
 const BASE_URL = process.env.REACT_APP_API_URL
 
 const Contact = () => {
+  
     const formik = useFormik({
         initialValues:{
             fullName:"",

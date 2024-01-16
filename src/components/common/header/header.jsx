@@ -31,7 +31,7 @@ const Header = () => {
                     <Link to="/contact">Contact</Link>
                 </li>
                  <li>
-                    <Link>About Us</Link>
+                    <Link to="/about">About Us</Link>
                 </li>
                  <Link to="/cart">
                  <i data-count={cart.length}><MdShoppingCart /></i>
