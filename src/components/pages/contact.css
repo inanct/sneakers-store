@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Sayfa yüksekliği kadar alana yaymak için */
+}
+
+form {
+    width: 300px;
+    /* Form genişliğini ayarlamak için */
+}
+
+/* İsteğe bağlı: Form elemanlarını düzenlemek için */
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.contact-button{
+    padding: 8px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.contact-button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.message, textarea{
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+    resize: vertical;
+}
+.email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.message-contact{
+    margin-bottom: 20px;
+}
+.social-contact{
+    font-size: 1.6rem;
+        display: flex;
+        gap: 4rem;
+        margin-top: 2rem;
+        justify-content: center;
+        cursor: pointer;
+}

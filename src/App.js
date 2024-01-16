@@ -6,6 +6,7 @@ import { DataProvider } from './DataContext'
 import Cart from './components/pages/cart'
 import Category from './components/pages/category'
 import Brands from './components/pages/brands'
+import Contact from './components/pages/contact'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/category' element={<Category/>}/>
       <Route path='/brands' element={<Brands/>}/>
+      <Route path='/contact' element={<Contact/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
